@@ -1,0 +1,834 @@
+0000.000 (0) Opened log file at time: Mon, 06 Jun 2022 06:00:44 +0000 on http://localhost:8080/mrq
+0000.055 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.0 PHP: 8.0.3 (apache2handler, Windows NT ADMIN 10.0 build 17763 (Windows 10) AMD64) MySQL: 10.4.18-MariaDB (max packet size=1048576) WPLANG: vi Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/8.0.3 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 109.3M | 22M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.066 (0) Free space on disk containing Updraft's temporary directory: 146456.6 MB
+0000.154 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.210 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.260 (0) Set semaphore last lock (fd) time to 2022-06-06 06:00:44
+0000.271 (0) Semaphore lock (fd) complete
+0000.415 (0) Backup run: resumption=0, nonce=4e95b101d1c1, file_nonce=4e95b101d1c1 begun at=1654495244 (0s ago), job type=backup
+0000.440 (0) Scheduling a resumption (1) after 415 seconds (1654495659) in case this run gets aborted
+0000.566 (0) Checking if we have a zip executable available
+0000.604 (0) Creation of backups of directories: beginning
+0000.642 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0049.346 (0) Total entities for the zip file: 3398 directories, 20184 files (0 skipped as non-modified), 175.3 MB
+0049.439 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0049.830 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 100 files added (on-disk size: 713.2 KB)
+0049.905 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 200 files added (on-disk size: 713.2 KB)
+0049.959 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 300 files added (on-disk size: 713.2 KB)
+0050.051 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 400 files added (on-disk size: 713.2 KB)
+0050.130 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.8 MB, 20184 files batched, 490 (491) added so far); re-opening (prior size: 713.2 KB)
+0056.957 (0) A useful amount of data was added after this amount of zip processing: 7.4 s (normalised: 7.2 s, rate: 3546.6 KB/s)
+0057.122 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 500 files added (on-disk size: 7610.4 KB)
+0057.187 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 600 files added (on-disk size: 7610.4 KB)
+0057.406 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 700 files added (on-disk size: 7610.4 KB)
+0057.484 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 800 files added (on-disk size: 7610.4 KB)
+0057.538 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 900 files added (on-disk size: 7610.4 KB)
+0057.617 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1000 files added (on-disk size: 7610.4 KB)
+0057.707 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1100 files added (on-disk size: 7610.4 KB)
+0057.784 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1200 files added (on-disk size: 7610.4 KB)
+0057.862 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1300 files added (on-disk size: 7610.4 KB)
+0057.947 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1400 files added (on-disk size: 7610.4 KB)
+0058.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 20184 files batched, 1001 (1492) added so far); re-opening (prior size: 7610.4 KB)
+0062.111 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1500 files added (on-disk size: 10074 KB)
+0062.186 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1600 files added (on-disk size: 10074 KB)
+0062.287 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1700 files added (on-disk size: 10074 KB)
+0062.364 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1800 files added (on-disk size: 10074 KB)
+0062.450 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 1900 files added (on-disk size: 10074 KB)
+0062.539 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2000 files added (on-disk size: 10074 KB)
+0062.625 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2100 files added (on-disk size: 10074 KB)
+0062.740 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2200 files added (on-disk size: 10074 KB)
+0063.214 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2300 files added (on-disk size: 10074 KB)
+0063.680 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2400 files added (on-disk size: 10074 KB)
+0063.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 20184 files batched, 1001 (2493) added so far); re-opening (prior size: 10074 KB)
+0066.585 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2500 files added (on-disk size: 11550.9 KB)
+0067.021 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2600 files added (on-disk size: 11550.9 KB)
+0067.131 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2700 files added (on-disk size: 11550.9 KB)
+0067.292 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2800 files added (on-disk size: 11550.9 KB)
+0067.453 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 2900 files added (on-disk size: 11550.9 KB)
+0067.551 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3000 files added (on-disk size: 11550.9 KB)
+0067.637 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3100 files added (on-disk size: 11550.9 KB)
+0067.782 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3200 files added (on-disk size: 11550.9 KB)
+0067.888 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3300 files added (on-disk size: 11550.9 KB)
+0068.003 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3400 files added (on-disk size: 11550.9 KB)
+0068.263 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.7 MB, 20184 files batched, 1001 (3494) added so far); re-opening (prior size: 11550.9 KB)
+0072.764 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3500 files added (on-disk size: 13329.6 KB)
+0072.878 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3600 files added (on-disk size: 13329.6 KB)
+0072.966 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3700 files added (on-disk size: 13329.6 KB)
+0073.058 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3800 files added (on-disk size: 13329.6 KB)
+0073.126 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 3900 files added (on-disk size: 13329.6 KB)
+0073.232 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4000 files added (on-disk size: 13329.6 KB)
+0073.392 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4100 files added (on-disk size: 13329.6 KB)
+0073.661 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4200 files added (on-disk size: 13329.6 KB)
+0073.788 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4300 files added (on-disk size: 13329.6 KB)
+0073.927 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4400 files added (on-disk size: 13329.6 KB)
+0074.054 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.5 MB, 20184 files batched, 1001 (4495) added so far); re-opening (prior size: 13329.6 KB)
+0079.108 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4500 files added (on-disk size: 14336.9 KB)
+0079.202 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4600 files added (on-disk size: 14336.9 KB)
+0079.302 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4700 files added (on-disk size: 14336.9 KB)
+0079.407 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4800 files added (on-disk size: 14336.9 KB)
+0079.508 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 4900 files added (on-disk size: 14336.9 KB)
+0079.635 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5000 files added (on-disk size: 14336.9 KB)
+0079.694 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5100 files added (on-disk size: 14336.9 KB)
+0079.790 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5200 files added (on-disk size: 14336.9 KB)
+0079.853 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5300 files added (on-disk size: 14336.9 KB)
+0079.914 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5400 files added (on-disk size: 14336.9 KB)
+0080.044 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.2 MB, 20184 files batched, 1001 (5496) added so far); re-opening (prior size: 14336.9 KB)
+0085.304 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5500 files added (on-disk size: 15552.3 KB)
+0085.417 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5600 files added (on-disk size: 15552.3 KB)
+0085.542 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5700 files added (on-disk size: 15552.3 KB)
+0085.617 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5800 files added (on-disk size: 15552.3 KB)
+0085.725 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 5900 files added (on-disk size: 15552.3 KB)
+0085.816 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6000 files added (on-disk size: 15552.3 KB)
+0086.027 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6100 files added (on-disk size: 15552.3 KB)
+0086.147 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6200 files added (on-disk size: 15552.3 KB)
+0086.237 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6300 files added (on-disk size: 15552.3 KB)
+0086.341 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6400 files added (on-disk size: 15552.3 KB)
+0086.437 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.1 MB, 20184 files batched, 1001 (6497) added so far); re-opening (prior size: 15552.3 KB)
+0089.875 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6500 files added (on-disk size: 17090.4 KB)
+0090.347 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6600 files added (on-disk size: 17090.4 KB)
+0090.482 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6700 files added (on-disk size: 17090.4 KB)
+0090.596 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6800 files added (on-disk size: 17090.4 KB)
+0090.673 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 6900 files added (on-disk size: 17090.4 KB)
+0090.764 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7000 files added (on-disk size: 17090.4 KB)
+0090.942 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7100 files added (on-disk size: 17090.4 KB)
+0091.021 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7200 files added (on-disk size: 17090.4 KB)
+0091.132 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7300 files added (on-disk size: 17090.4 KB)
+0091.192 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7400 files added (on-disk size: 17090.4 KB)
+0091.299 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.1 MB, 20184 files batched, 1001 (7498) added so far); re-opening (prior size: 17090.4 KB)
+0095.554 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7500 files added (on-disk size: 18557.8 KB)
+0095.681 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7600 files added (on-disk size: 18557.8 KB)
+0095.858 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7700 files added (on-disk size: 18557.8 KB)
+0096.019 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7800 files added (on-disk size: 18557.8 KB)
+0096.147 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 7900 files added (on-disk size: 18557.8 KB)
+0096.318 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8000 files added (on-disk size: 18557.8 KB)
+0096.471 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8100 files added (on-disk size: 18557.8 KB)
+0096.685 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8200 files added (on-disk size: 18557.8 KB)
+0096.885 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8300 files added (on-disk size: 18557.8 KB)
+0097.067 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8400 files added (on-disk size: 18557.8 KB)
+0097.248 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10 MB, 20184 files batched, 1001 (8499) added so far); re-opening (prior size: 18557.8 KB)
+0103.152 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8500 files added (on-disk size: 23862.3 KB)
+0103.614 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8600 files added (on-disk size: 23862.3 KB)
+0103.833 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8700 files added (on-disk size: 23862.3 KB)
+0104.267 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8800 files added (on-disk size: 23862.3 KB)
+0104.515 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 8900 files added (on-disk size: 23862.3 KB)
+0104.686 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9000 files added (on-disk size: 23862.3 KB)
+0105.024 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9100 files added (on-disk size: 23862.3 KB)
+0105.362 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9200 files added (on-disk size: 23862.3 KB)
+0105.511 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.3 MB, 744 (9243) files added so far); re-opening (prior size: 23862.3 KB)
+0111.540 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9300 files added (on-disk size: 25604.1 KB)
+0112.081 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9400 files added (on-disk size: 25604.1 KB)
+0112.387 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9500 files added (on-disk size: 25604.1 KB)
+0112.573 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9600 files added (on-disk size: 25604.1 KB)
+0112.796 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9700 files added (on-disk size: 25604.1 KB)
+0113.007 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9800 files added (on-disk size: 25604.1 KB)
+0113.236 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 9900 files added (on-disk size: 25604.1 KB)
+0113.402 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10000 files added (on-disk size: 25604.1 KB)
+0113.509 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (19.2 MB, 796 (10039) files added so far); re-opening (prior size: 25604.1 KB)
+0120.367 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10100 files added (on-disk size: 31959.8 KB)
+0120.623 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10200 files added (on-disk size: 31959.8 KB)
+0120.831 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10300 files added (on-disk size: 31959.8 KB)
+0121.001 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10400 files added (on-disk size: 31959.8 KB)
+0121.347 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10500 files added (on-disk size: 31959.8 KB)
+0121.672 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10600 files added (on-disk size: 31959.8 KB)
+0121.834 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10700 files added (on-disk size: 31959.8 KB)
+0122.037 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10800 files added (on-disk size: 31959.8 KB)
+0122.233 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 10900 files added (on-disk size: 31959.8 KB)
+0122.428 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11000 files added (on-disk size: 31959.8 KB)
+0122.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 20184 files batched, 1001 (11040) added so far); re-opening (prior size: 31959.8 KB)
+0129.989 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11100 files added (on-disk size: 33329.9 KB)
+0130.202 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11200 files added (on-disk size: 33329.9 KB)
+0130.348 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11300 files added (on-disk size: 33329.9 KB)
+0130.603 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11400 files added (on-disk size: 33329.9 KB)
+0130.872 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11500 files added (on-disk size: 33329.9 KB)
+0131.253 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11600 files added (on-disk size: 33329.9 KB)
+0131.513 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11700 files added (on-disk size: 33329.9 KB)
+0131.820 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11800 files added (on-disk size: 33329.9 KB)
+0132.117 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 11900 files added (on-disk size: 33329.9 KB)
+0132.465 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12000 files added (on-disk size: 33329.9 KB)
+0132.509 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 963 (12003) files added so far); re-opening (prior size: 33329.9 KB)
+0138.158 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12100 files added (on-disk size: 34282.8 KB)
+0138.554 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12200 files added (on-disk size: 34282.8 KB)
+0138.792 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12300 files added (on-disk size: 34282.8 KB)
+0139.090 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12400 files added (on-disk size: 34282.8 KB)
+0139.350 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12500 files added (on-disk size: 34282.8 KB)
+0139.622 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12600 files added (on-disk size: 34282.8 KB)
+0139.872 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12700 files added (on-disk size: 34282.8 KB)
+0140.121 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12800 files added (on-disk size: 34282.8 KB)
+0140.378 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 12900 files added (on-disk size: 34282.8 KB)
+0140.511 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 932 (12935) files added so far); re-opening (prior size: 34282.8 KB)
+0147.211 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13000 files added (on-disk size: 35711.7 KB)
+0147.605 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13100 files added (on-disk size: 35711.7 KB)
+0147.839 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13200 files added (on-disk size: 35711.7 KB)
+0148.095 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13300 files added (on-disk size: 35711.7 KB)
+0148.272 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13400 files added (on-disk size: 35711.7 KB)
+0148.510 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13500 files added (on-disk size: 35711.7 KB)
+0148.641 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13600 files added (on-disk size: 35711.7 KB)
+0148.801 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13700 files added (on-disk size: 35711.7 KB)
+0148.998 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13800 files added (on-disk size: 35711.7 KB)
+0149.147 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 13900 files added (on-disk size: 35711.7 KB)
+0149.231 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.3 MB, 20184 files batched, 1001 (13936) added so far); re-opening (prior size: 35711.7 KB)
+0157.400 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14000 files added (on-disk size: 41289.2 KB)
+0157.654 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14100 files added (on-disk size: 41289.2 KB)
+0157.882 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14200 files added (on-disk size: 41289.2 KB)
+0158.080 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14300 files added (on-disk size: 41289.2 KB)
+0158.316 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14400 files added (on-disk size: 41289.2 KB)
+0158.634 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14500 files added (on-disk size: 41289.2 KB)
+0158.931 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14600 files added (on-disk size: 41289.2 KB)
+0159.200 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14700 files added (on-disk size: 41289.2 KB)
+0159.511 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.1 MB, 843 (14779) files added so far); re-opening (prior size: 41289.2 KB)
+0166.181 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14800 files added (on-disk size: 42874.8 KB)
+0166.944 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 14900 files added (on-disk size: 42874.8 KB)
+0167.247 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15000 files added (on-disk size: 42874.8 KB)
+0167.477 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15100 files added (on-disk size: 42874.8 KB)
+0167.676 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15200 files added (on-disk size: 42874.8 KB)
+0167.862 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15300 files added (on-disk size: 42874.8 KB)
+0168.110 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15400 files added (on-disk size: 42874.8 KB)
+0168.500 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15500 files added (on-disk size: 42874.8 KB)
+0168.529 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.6 MB, 722 (15501) files added so far); re-opening (prior size: 42874.8 KB)
+0178.299 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15600 files added (on-disk size: 45863.8 KB)
+0178.446 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15700 files added (on-disk size: 45863.8 KB)
+0178.588 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15800 files added (on-disk size: 45863.8 KB)
+0178.894 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 15900 files added (on-disk size: 45863.8 KB)
+0179.002 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16000 files added (on-disk size: 45863.8 KB)
+0179.133 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16100 files added (on-disk size: 45863.8 KB)
+0179.387 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16200 files added (on-disk size: 45863.8 KB)
+0179.596 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16300 files added (on-disk size: 45863.8 KB)
+0180.076 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16400 files added (on-disk size: 45863.8 KB)
+0180.277 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16500 files added (on-disk size: 45863.8 KB)
+0180.385 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.5 MB, 20184 files batched, 1001 (16502) added so far); re-opening (prior size: 45863.8 KB)
+0190.484 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16600 files added (on-disk size: 49036.3 KB)
+0190.636 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16700 files added (on-disk size: 49036.3 KB)
+0191.011 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16800 files added (on-disk size: 49036.3 KB)
+0191.153 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 16900 files added (on-disk size: 49036.3 KB)
+0191.286 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17000 files added (on-disk size: 49036.3 KB)
+0191.487 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17100 files added (on-disk size: 49036.3 KB)
+0191.596 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17200 files added (on-disk size: 49036.3 KB)
+0191.682 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17300 files added (on-disk size: 49036.3 KB)
+0191.810 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17400 files added (on-disk size: 49036.3 KB)
+0191.913 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17500 files added (on-disk size: 49036.3 KB)
+0191.970 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2 MB, 20184 files batched, 1001 (17503) added so far); re-opening (prior size: 49036.3 KB)
+0198.711 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17600 files added (on-disk size: 50091 KB)
+0198.796 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17700 files added (on-disk size: 50091 KB)
+0198.881 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17800 files added (on-disk size: 50091 KB)
+0198.963 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 17900 files added (on-disk size: 50091 KB)
+0199.010 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18000 files added (on-disk size: 50091 KB)
+0199.096 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18100 files added (on-disk size: 50091 KB)
+0199.183 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18200 files added (on-disk size: 50091 KB)
+0199.344 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18300 files added (on-disk size: 50091 KB)
+0199.429 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18400 files added (on-disk size: 50091 KB)
+0199.658 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18500 files added (on-disk size: 50091 KB)
+0199.692 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 20184 files batched, 1001 (18504) added so far); re-opening (prior size: 50091 KB)
+0207.880 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18600 files added (on-disk size: 52450.1 KB)
+0208.011 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18700 files added (on-disk size: 52450.1 KB)
+0208.125 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18800 files added (on-disk size: 52450.1 KB)
+0208.229 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 18900 files added (on-disk size: 52450.1 KB)
+0208.349 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19000 files added (on-disk size: 52450.1 KB)
+0208.454 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19100 files added (on-disk size: 52450.1 KB)
+0208.548 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19200 files added (on-disk size: 52450.1 KB)
+0208.677 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19300 files added (on-disk size: 52450.1 KB)
+0208.739 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19400 files added (on-disk size: 52450.1 KB)
+0208.826 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19500 files added (on-disk size: 52450.1 KB)
+0208.843 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7 MB, 20184 files batched, 1001 (19505) added so far); re-opening (prior size: 52450.1 KB)
+0217.373 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19600 files added (on-disk size: 55072.1 KB)
+0217.553 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19700 files added (on-disk size: 55072.1 KB)
+0218.216 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19800 files added (on-disk size: 55072.1 KB)
+0218.643 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 19900 files added (on-disk size: 55072.1 KB)
+0218.802 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 20000 files added (on-disk size: 55072.1 KB)
+0218.929 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.tmp: 20100 files added (on-disk size: 55072.1 KB)
+0227.911 (0) Creating zip file manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.list-temp.tmp)
+0228.316 (0) Successfully created zip file manifest (size: 2158578)
+0229.887 (0) Created plugins zip (0) - 56362.2 KB in 229.2 s (245.9 KB/s) (sha1: 340263953b5ae057211ef470cddbaa0010f43444, sha256: b5390e915aea0bc48fe151f521266be0805cd2db8dd1e6e70ed1239b0b4a789f)
+0229.927 (0) Beginning creation of dump of themes (split every: 400 MB)
+0232.534 (0) Total entities for the zip file: 224 directories, 1825 files (0 skipped as non-modified), 12.8 MB
+0232.666 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0232.816 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 100 files added (on-disk size: 36.6 KB)
+0232.992 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 200 files added (on-disk size: 36.6 KB)
+0233.102 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 300 files added (on-disk size: 36.6 KB)
+0233.206 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 400 files added (on-disk size: 36.6 KB)
+0233.294 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 500 files added (on-disk size: 36.6 KB)
+0233.369 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 600 files added (on-disk size: 36.6 KB)
+0233.466 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 700 files added (on-disk size: 36.6 KB)
+0233.542 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 800 files added (on-disk size: 36.6 KB)
+0233.657 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 900 files added (on-disk size: 36.6 KB)
+0233.760 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1000 files added (on-disk size: 36.6 KB)
+0233.801 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 1825 files batched, 1001 (1002) added so far); re-opening (prior size: 36.6 KB)
+0239.049 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1100 files added (on-disk size: 3633.7 KB)
+0239.148 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1200 files added (on-disk size: 3633.7 KB)
+0239.281 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1300 files added (on-disk size: 3633.7 KB)
+0239.358 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1400 files added (on-disk size: 3633.7 KB)
+0239.441 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1500 files added (on-disk size: 3633.7 KB)
+0239.520 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1600 files added (on-disk size: 3633.7 KB)
+0239.742 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1700 files added (on-disk size: 3633.7 KB)
+0239.968 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.tmp: 1800 files added (on-disk size: 3633.7 KB)
+0243.248 (0) Creating zip file manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.list-temp.tmp)
+0243.308 (0) Successfully created zip file manifest (size: 141330)
+0243.534 (0) Created themes zip (0) - 5915.9 KB in 13.5 s (436.9 KB/s) (sha1: cf36e4513fcf65a2238c3fb872919ebeccfb746e, sha256: 4dda71c9771f62ef629ec664a20e1550a9050b0ebb1e16bea3a583ded6820819)
+0243.573 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0243.595 (0) Looking for candidates to backup in: D:\HK5\Xampp\htdocs\mrq/wp-content/uploads
+0243.652 (0) finding files: 2022: adding to list (1)
+0243.704 (0) finding files: custom-css-js: adding to list (2)
+0243.730 (0) finding files: elementor: adding to list (3)
+0243.746 (0) finding files: mailpoet: adding to list (4)
+0243.767 (0) finding files: wc-logs: adding to list (5)
+0243.804 (0) finding files: woocommerce_uploads: adding to list (6)
+0243.849 (0) finding files: wpcf7_uploads: adding to list (7)
+0243.901 (0) finding files: wpforms: adding to list (8)
+0243.949 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0244.277 (0) Total entities for the zip file: 14 directories, 163 files (0 skipped as non-modified), 16.3 MB
+0244.456 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0247.401 (0) Creating zip file manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip.list-temp.tmp)
+0247.457 (0) Successfully created zip file manifest (size: 7284)
+0247.828 (0) Created uploads zip (0) - 16518.2 KB in 3.8 s (4315.6 KB/s) (sha1: 411be37ffd5caf6fbe069c7136380ccf266e3edc, sha256: c1dac9ebe435309ab84aa04888f556e7f3a49bf5d51161f5961a9cc8c9df29cf)
+0247.963 (0) Beginning backup of other directories found in the content directory (index: 0)
+0248.030 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0248.075 (0) Looking for candidates to backup in: D:\HK5\Xampp\htdocs\mrq/wp-content
+0248.121 (0) finding files: index.php: adding to list (1)
+0248.158 (0) finding files: languages: adding to list (2)
+0248.203 (0) finding files: plugins: skipping: this is the plugins directory
+0248.249 (0) finding files: themes: skipping: this is the themes directory
+0248.302 (0) finding files: updraft: skipping: this is the updraft directory
+0248.349 (0) finding files: upgrade: skipping: excluded by options
+0248.394 (0) finding files: uploads: skipping: this is the uploads directory
+0248.672 (0) Total entities for the zip file: 3 directories, 323 files (0 skipped as non-modified), 4.6 MB
+0248.758 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0248.858 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0248.967 (0) Zip: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0251.490 (0) Creating zip file manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip.list-temp.tmp)
+0251.535 (0) Successfully created zip file manifest (size: 24276)
+0251.695 (0) Created others zip (0) - 1320.4 KB in 3.2 s (406.9 KB/s) (sha1: 8c2766e959c60c35b819fe5166e318e52d569db7, sha256: a6780c67d3d3c27dce85decd5c14fd09072059832b24a7c7482a9a906995d7f2)
+0251.876 (0) Saving backup status to database (elements: 8)
+0251.975 (0) Beginning creation of database dump (WordPress DB)
+0251.997 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0253.937 (0) Table wp_options: Total expected rows (via COUNT): 490
+0253.992 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0254.336 (0) Table wp_options: Rows added in this batch (next record: 4987): 486 (uncompressed bytes in this segment=1886393) in 1.43 seconds
+0254.464 (0) Table wp_options: finishing file(s) (2, 318.4 KB)
+0254.545 (0) Table wp_users: Total expected rows (via COUNT): 1
+0254.575 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0254.643 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1361) in 0.14 seconds
+0254.746 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0254.931 (0) Table wp_usermeta: Total expected rows (via COUNT): 29
+0254.978 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0255.035 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 29 (uncompressed bytes in this segment=4736) in 0.20 seconds
+0255.422 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0255.830 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 64
+0255.856 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0255.962 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 78): 64 (uncompressed bytes in this segment=24118) in 0.33 seconds
+0256.122 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.9 KB)
+0256.301 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0256.348 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.15 seconds
+0256.488 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0256.616 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 6
+0256.648 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0256.729 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=788) in 0.14 seconds
+0256.860 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0257.291 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 188
+0257.349 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0257.392 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 196): 188 (uncompressed bytes in this segment=17723) in 0.12 seconds
+0257.520 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2.6 KB)
+0257.813 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0257.930 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.20 seconds
+0258.103 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0258.202 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0258.496 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1725) in 0.32 seconds
+0258.810 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0259.006 (0) Table wp_links: Total expected rows (via COUNT): 0
+0259.071 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.08 seconds
+0259.217 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0259.488 (0) Table wp_postmeta: Total expected rows (via COUNT): 910
+0259.541 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0259.595 (0) Table wp_postmeta: Rows added in this batch (next record: 1161): 910 (uncompressed bytes in this segment=111185) in 0.35 seconds
+0259.774 (0) Table wp_postmeta: finishing file(s) (2, 12.5 KB)
+0260.218 (0) Table wp_posts: Total expected rows (via COUNT): 462
+0260.255 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0260.348 (0) Table wp_posts: Rows added in this batch (next record: 557): 462 (uncompressed bytes in this segment=913165) in 0.49 seconds
+0261.147 (0) Table wp_posts: finishing file(s) (2, 65 KB)
+0261.514 (0) Table wp_term_relationships: Total expected rows (approximate): 39
+0261.800 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 40 (uncompressed bytes in this segment=1241) in 0.31 seconds
+0262.013 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0262.608 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 25
+0262.791 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0262.962 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1820) in 0.59 seconds
+0263.433 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0263.898 (0) Table wp_termmeta: Total expected rows (via COUNT): 34
+0263.961 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0264.049 (0) Table wp_termmeta: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=1938) in 0.50 seconds
+0264.538 (0) Table wp_termmeta: finishing file(s) (2, 0.7 KB)
+0264.794 (0) Table wp_terms: Total expected rows (via COUNT): 25
+0264.840 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0264.921 (0) Table wp_terms: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1621) in 0.17 seconds
+0265.005 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0265.404 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 7
+0265.803 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=673) in 0.40 seconds
+0266.083 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0266.224 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 16
+0266.268 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0266.327 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 177): 16 (uncompressed bytes in this segment=2874) in 0.11 seconds
+0266.521 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.7 KB)
+0266.633 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0266.727 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.10 seconds
+0266.929 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0267.093 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0267.119 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0267.210 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.16 seconds
+0267.347 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0267.668 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0267.793 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.22 seconds
+0267.981 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0268.214 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0268.260 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.11 seconds
+0268.516 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0268.639 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0268.693 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=534) in 0.07 seconds
+0268.797 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0268.854 (0) Table wp_gla_budget_recommendations: Total expected rows (approximate): 4230
+0269.023 (0) Table wp_gla_budget_recommendations: Rows added in this batch (next record: 4230): 4230 (uncompressed bytes in this segment=129822) in 0.18 seconds
+0269.356 (0) Table wp_gla_budget_recommendations: finishing file(s) (2, 31.4 KB)
+0269.675 (0) Table wp_gla_merchant_issues: Total expected rows (via COUNT): 0
+0269.702 (0) Table wp_gla_merchant_issues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1129) in 0.03 seconds
+0269.813 (0) Table wp_gla_merchant_issues: finishing file(s) (2, 0.4 KB)
+0269.984 (0) Table wp_gla_shipping_rates: Total expected rows (via COUNT): 0
+0270.078 (0) Table wp_gla_shipping_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.15 seconds
+0270.307 (0) Table wp_gla_shipping_rates: finishing file(s) (2, 0.4 KB)
+0270.615 (0) Table wp_gla_shipping_times: Total expected rows (via COUNT): 0
+0270.693 (0) Table wp_gla_shipping_times: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.21 seconds
+0270.896 (0) Table wp_gla_shipping_times: finishing file(s) (2, 0.3 KB)
+0271.224 (0) Table wp_mailpoet_custom_fields: Total expected rows (via COUNT): 0
+0271.278 (0) Table wp_mailpoet_custom_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=819) in 0.14 seconds
+0271.822 (0) Table wp_mailpoet_custom_fields: finishing file(s) (2, 0.4 KB)
+0272.133 (0) Table wp_mailpoet_dynamic_segment_filters: Total expected rows (via COUNT): 0
+0272.191 (0) Table wp_mailpoet_dynamic_segment_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=927) in 0.07 seconds
+0272.420 (0) Table wp_mailpoet_dynamic_segment_filters: finishing file(s) (2, 0.4 KB)
+0272.623 (0) Table wp_mailpoet_feature_flags: Total expected rows (via COUNT): 0
+0272.715 (0) Table wp_mailpoet_feature_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=740) in 0.15 seconds
+0272.894 (0) Table wp_mailpoet_feature_flags: finishing file(s) (2, 0.4 KB)
+0273.037 (0) Table wp_mailpoet_forms: Total expected rows (via COUNT): 0
+0273.105 (0) Table wp_mailpoet_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=931) in 0.12 seconds
+0273.327 (0) Table wp_mailpoet_forms: finishing file(s) (2, 0.4 KB)
+0273.505 (0) Table wp_mailpoet_log: Total expected rows (via COUNT): 0
+0273.518 (0) Table wp_mailpoet_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.05 seconds
+0273.660 (0) Table wp_mailpoet_log: finishing file(s) (2, 0.4 KB)
+0273.778 (0) Table wp_mailpoet_mapping_to_external_entities: Total expected rows (approximate): 0
+0273.821 (0) Table wp_mailpoet_mapping_to_external_entities: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=755) in 0.05 seconds
+0273.999 (0) Table wp_mailpoet_mapping_to_external_entities: finishing file(s) (2, 0.4 KB)
+0274.221 (0) Table wp_mailpoet_newsletter_links: Total expected rows (via COUNT): 0
+0274.285 (0) Table wp_mailpoet_newsletter_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.12 seconds
+0274.473 (0) Table wp_mailpoet_newsletter_links: finishing file(s) (2, 0.4 KB)
+0274.732 (0) Table wp_mailpoet_newsletter_option: Total expected rows (via COUNT): 0
+0274.787 (0) Table wp_mailpoet_newsletter_option: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.13 seconds
+0275.090 (0) Table wp_mailpoet_newsletter_option: finishing file(s) (2, 0.4 KB)
+0275.188 (0) Table wp_mailpoet_newsletter_option_fields: Total expected rows (via COUNT): 22
+0275.229 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0275.263 (0) Table wp_mailpoet_newsletter_option_fields: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2382) in 0.08 seconds
+0275.299 (0) Table wp_mailpoet_newsletter_option_fields: finishing file(s) (2, 0.7 KB)
+0275.382 (0) Table wp_mailpoet_newsletter_posts: Total expected rows (via COUNT): 0
+0275.473 (0) Table wp_mailpoet_newsletter_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=759) in 0.10 seconds
+0275.764 (0) Table wp_mailpoet_newsletter_posts: finishing file(s) (2, 0.4 KB)
+0275.902 (0) Table wp_mailpoet_newsletter_segment: Total expected rows (via COUNT): 0
+0275.944 (0) Table wp_mailpoet_newsletter_segment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.06 seconds
+0276.047 (0) Table wp_mailpoet_newsletter_segment: finishing file(s) (2, 0.4 KB)
+0276.244 (0) Table wp_mailpoet_newsletter_templates: Total expected rows (via COUNT): 76
+0276.257 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0276.415 (0) Table wp_mailpoet_newsletter_templates: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=1116198) in 0.30 seconds
+0276.904 (0) Table wp_mailpoet_newsletter_templates: finishing file(s) (2, 67 KB)
+0277.299 (0) Table wp_mailpoet_newsletters: Total expected rows (via COUNT): 0
+0277.424 (0) Table wp_mailpoet_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1719) in 0.30 seconds
+0277.664 (0) Table wp_mailpoet_newsletters: finishing file(s) (2, 0.6 KB)
+0277.824 (0) Table wp_mailpoet_scheduled_task_subscribers: Total expected rows (approximate): 0
+0277.892 (0) Table wp_mailpoet_scheduled_task_subscribers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=921) in 0.07 seconds
+0278.344 (0) Table wp_mailpoet_scheduled_task_subscribers: finishing file(s) (2, 0.4 KB)
+0278.548 (0) Table wp_mailpoet_scheduled_tasks: Total expected rows (via COUNT): 39
+0278.602 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0278.735 (0) Table wp_mailpoet_scheduled_tasks: Rows added in this batch (next record: 39): 39 (uncompressed bytes in this segment=7592) in 0.27 seconds
+0278.883 (0) Table wp_mailpoet_scheduled_tasks: finishing file(s) (2, 1.5 KB)
+0279.098 (0) Table wp_mailpoet_segments: Total expected rows (via COUNT): 3
+0279.256 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0279.360 (0) Table wp_mailpoet_segments: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1691) in 0.37 seconds
+0279.513 (0) Table wp_mailpoet_segments: finishing file(s) (2, 0.7 KB)
+0279.690 (0) Table wp_mailpoet_sending_queues: Total expected rows (via COUNT): 0
+0279.848 (0) Table wp_mailpoet_sending_queues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1278) in 0.24 seconds
+0280.599 (0) Table wp_mailpoet_sending_queues: finishing file(s) (2, 0.5 KB)
+0280.901 (0) Table wp_mailpoet_settings: Total expected rows (via COUNT): 16
+0280.989 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0281.217 (0) Table wp_mailpoet_settings: Rows added in this batch (next record: 22): 16 (uncompressed bytes in this segment=3230) in 0.42 seconds
+0281.614 (0) Table wp_mailpoet_settings: finishing file(s) (2, 1.2 KB)
+0281.787 (0) Table wp_mailpoet_statistics_bounces: Total expected rows (via COUNT): 0
+0281.992 (0) Table wp_mailpoet_statistics_bounces: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.21 seconds
+0282.158 (0) Table wp_mailpoet_statistics_bounces: finishing file(s) (2, 0.4 KB)
+0282.291 (0) Table wp_mailpoet_statistics_clicks: Total expected rows (via COUNT): 0
+0282.413 (0) Table wp_mailpoet_statistics_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1123) in 0.13 seconds
+0282.582 (0) Table wp_mailpoet_statistics_clicks: finishing file(s) (2, 0.5 KB)
+0282.708 (0) Table wp_mailpoet_statistics_forms: Total expected rows (via COUNT): 0
+0282.778 (0) Table wp_mailpoet_statistics_forms: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=704) in 0.08 seconds
+0282.912 (0) Table wp_mailpoet_statistics_forms: finishing file(s) (2, 0.4 KB)
+0283.031 (0) Table wp_mailpoet_statistics_newsletters: Total expected rows (via COUNT): 0
+0283.073 (0) Table wp_mailpoet_statistics_newsletters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=831) in 0.05 seconds
+0283.223 (0) Table wp_mailpoet_statistics_newsletters: finishing file(s) (2, 0.4 KB)
+0283.321 (0) Table wp_mailpoet_statistics_opens: Total expected rows (via COUNT): 0
+0283.367 (0) Table wp_mailpoet_statistics_opens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1067) in 0.05 seconds
+0283.520 (0) Table wp_mailpoet_statistics_opens: finishing file(s) (2, 0.4 KB)
+0283.732 (0) Table wp_mailpoet_statistics_unsubscribes: Total expected rows (via COUNT): 0
+0283.772 (0) Table wp_mailpoet_statistics_unsubscribes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1016) in 0.05 seconds
+0283.891 (0) Table wp_mailpoet_statistics_unsubscribes: finishing file(s) (2, 0.4 KB)
+0283.963 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Total expected rows (via COUNT): 0
+0284.003 (0) Table wp_mailpoet_statistics_woocommerce_purchases: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1268) in 0.05 seconds
+0284.165 (0) Table wp_mailpoet_statistics_woocommerce_purchases: finishing file(s) (2, 0.5 KB)
+0284.344 (0) Table wp_mailpoet_stats_notifications: Total expected rows (via COUNT): 0
+0284.421 (0) Table wp_mailpoet_stats_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=831) in 0.09 seconds
+0284.628 (0) Table wp_mailpoet_stats_notifications: finishing file(s) (2, 0.4 KB)
+0284.768 (0) Table wp_mailpoet_subscriber_custom_field: Total expected rows (via COUNT): 0
+0284.805 (0) Table wp_mailpoet_subscriber_custom_field: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.05 seconds
+0284.883 (0) Table wp_mailpoet_subscriber_custom_field: finishing file(s) (2, 0.4 KB)
+0284.989 (0) Table wp_mailpoet_subscriber_ips: Total expected rows (approximate): 0
+0285.044 (0) Table wp_mailpoet_subscriber_ips: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=587) in 0.07 seconds
+0285.221 (0) Table wp_mailpoet_subscriber_ips: finishing file(s) (2, 0.3 KB)
+0285.302 (0) Table wp_mailpoet_subscriber_segment: Total expected rows (via COUNT): 1
+0285.341 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0285.399 (0) Table wp_mailpoet_subscriber_segment: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1056) in 0.10 seconds
+0285.532 (0) Table wp_mailpoet_subscriber_segment: finishing file(s) (2, 0.5 KB)
+0285.981 (0) Table wp_mailpoet_subscribers: Total expected rows (via COUNT): 1
+0286.078 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0286.141 (0) Table wp_mailpoet_subscribers: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2669) in 0.57 seconds
+0286.381 (0) Table wp_mailpoet_subscribers: finishing file(s) (2, 0.9 KB)
+0286.566 (0) Table wp_mailpoet_user_agents: Total expected rows (via COUNT): 0
+0286.682 (0) Table wp_mailpoet_user_agents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.18 seconds
+0286.878 (0) Table wp_mailpoet_user_agents: finishing file(s) (2, 0.4 KB)
+0287.215 (0) Table wp_mailpoet_user_flags: Total expected rows (via COUNT): 0
+0287.354 (0) Table wp_mailpoet_user_flags: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=801) in 0.17 seconds
+0287.598 (0) Table wp_mailpoet_user_flags: finishing file(s) (2, 0.4 KB)
+0287.894 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 55
+0287.942 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0288.197 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 710): 55 (uncompressed bytes in this segment=10237) in 0.42 seconds
+0288.669 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2.5 KB)
+0288.838 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 49
+0288.909 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0289.020 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 49): 49 (uncompressed bytes in this segment=23235) in 0.26 seconds
+0289.281 (0) Table wp_wc_admin_notes: finishing file(s) (2, 6.2 KB)
+0289.453 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0289.524 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.11 seconds
+0289.665 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0289.837 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0289.893 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=918) in 0.08 seconds
+0290.005 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0290.142 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0290.203 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.06 seconds
+0290.293 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0290.915 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0290.970 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.08 seconds
+0291.163 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0291.286 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0291.344 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1102) in 0.09 seconds
+0291.515 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0291.815 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0291.853 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.05 seconds
+0291.990 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0292.053 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0292.111 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=854) in 0.06 seconds
+0292.164 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0292.228 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0292.249 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0292.275 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=905) in 0.05 seconds
+0292.345 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0292.403 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0292.475 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.08 seconds
+0292.563 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0292.628 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0292.666 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.04 seconds
+0293.050 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0293.350 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0293.404 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.12 seconds
+0293.778 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0293.891 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0293.998 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.11 seconds
+0294.375 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0294.665 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0294.745 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.17 seconds
+0294.933 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0295.409 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0295.491 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.25 seconds
+0295.838 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0296.105 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0296.192 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.10 seconds
+0296.683 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0296.801 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0296.924 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.14 seconds
+0297.152 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0297.329 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 1
+0297.392 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0297.451 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 11): 1 (uncompressed bytes in this segment=3019) in 0.21 seconds
+0297.760 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 1 KB)
+0297.902 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0297.955 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.07 seconds
+0298.034 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0298.146 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0298.181 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.05 seconds
+0298.252 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0298.360 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0298.398 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.07 seconds
+0298.484 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0298.696 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0298.863 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.20 seconds
+0299.376 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0299.709 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0299.787 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.12 seconds
+0300.162 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0301.618 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 5
+0301.720 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0302.000 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1037) in 0.86 seconds
+0302.270 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0302.325 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 0
+0302.381 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.06 seconds
+0302.429 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0302.583 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 9
+0302.628 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0302.721 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=1389) in 0.19 seconds
+0303.343 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.5 KB)
+0303.433 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\HK5\Xampp\htdocs\mrq/wp-content/updraft/backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz (line 1884, D:\HK5\Xampp\htdocs\mrq\wp-content\plugins\updraftplus\backup.php)
+0303.488 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_options.table.tmpr4988.gz (1/86/fopen): adding to final database dump
+0303.552 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_options.table.gz (2/86/fopen): adding to final database dump
+0303.605 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_users.table.tmpr2.gz (3/86/fopen): adding to final database dump
+0303.703 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_users.table.gz (4/86/fopen): adding to final database dump
+0303.757 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_usermeta.table.tmpr34.gz (5/86/fopen): adding to final database dump
+0303.805 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_usermeta.table.gz (6/86/fopen): adding to final database dump
+0303.989 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_actions.table.tmpr79.gz (7/86/fopen): adding to final database dump
+0304.047 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_actions.table.gz (8/86/fopen): adding to final database dump
+0304.063 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/86/fopen): adding to final database dump
+0304.075 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_claims.table.gz (10/86/fopen): adding to final database dump
+0304.121 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_groups.table.tmpr7.gz (11/86/fopen): adding to final database dump
+0304.167 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_groups.table.gz (12/86/fopen): adding to final database dump
+0304.212 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_logs.table.tmpr197.gz (13/86/fopen): adding to final database dump
+0304.358 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_actionscheduler_logs.table.gz (14/86/fopen): adding to final database dump
+0304.411 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_commentmeta.table.tmpr0.gz (15/86/fopen): adding to final database dump
+0304.469 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_commentmeta.table.gz (16/86/fopen): adding to final database dump
+0304.522 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_comments.table.tmpr0.gz (17/86/fopen): adding to final database dump
+0304.570 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_comments.table.gz (18/86/fopen): adding to final database dump
+0304.613 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_links.table.tmpr0.gz (19/86/fopen): adding to final database dump
+0304.676 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_links.table.gz (20/86/fopen): adding to final database dump
+0304.738 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_postmeta.table.tmpr1162.gz (21/86/fopen): adding to final database dump
+0304.802 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_postmeta.table.gz (22/86/fopen): adding to final database dump
+0304.877 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_posts.table.tmpr558.gz (23/86/fopen): adding to final database dump
+0304.991 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_posts.table.gz (24/86/fopen): adding to final database dump
+0305.074 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_term_relationships.table.tmpr100001.gz (25/86/fopen): adding to final database dump
+0305.110 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_term_relationships.table.gz (26/86/fopen): adding to final database dump
+0305.149 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_term_taxonomy.table.tmpr26.gz (27/86/fopen): adding to final database dump
+0305.190 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_term_taxonomy.table.gz (28/86/fopen): adding to final database dump
+0305.231 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_termmeta.table.tmpr35.gz (29/86/fopen): adding to final database dump
+0305.270 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_termmeta.table.gz (30/86/fopen): adding to final database dump
+0305.302 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_terms.table.tmpr26.gz (31/86/fopen): adding to final database dump
+0305.405 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_terms.table.gz (32/86/fopen): adding to final database dump
+0305.575 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/86/fopen): adding to final database dump
+0305.604 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_category_lookup.table.gz (34/86/fopen): adding to final database dump
+0305.654 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_meta_lookup.table.tmpr178.gz (35/86/fopen): adding to final database dump
+0305.690 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_meta_lookup.table.gz (36/86/fopen): adding to final database dump
+0305.730 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/86/fopen): adding to final database dump
+0305.767 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_reserved_stock.table.gz (38/86/fopen): adding to final database dump
+0305.810 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/86/fopen): adding to final database dump
+0305.853 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_tax_rate_classes.table.gz (40/86/fopen): adding to final database dump
+0305.886 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/86/fopen): adding to final database dump
+0305.967 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_order_itemmeta.table.gz (42/86/fopen): adding to final database dump
+0306.031 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/86/fopen): adding to final database dump
+0306.102 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/86/fopen): adding to final database dump
+0306.114 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_e_events.table.tmpr0.gz (45/86/fopen): adding to final database dump
+0306.159 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_e_events.table.gz (46/86/fopen): adding to final database dump
+0306.222 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_budget_recommendations.table.tmpr4231.gz (47/86/fopen): adding to final database dump
+0306.277 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_budget_recommendations.table.gz (48/86/fopen): adding to final database dump
+0306.403 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_merchant_issues.table.tmpr0.gz (49/86/fopen): adding to final database dump
+0306.544 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_merchant_issues.table.gz (50/86/fopen): adding to final database dump
+0306.565 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_shipping_rates.table.tmpr0.gz (51/86/fopen): adding to final database dump
+0306.577 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_shipping_rates.table.gz (52/86/fopen): adding to final database dump
+0306.686 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_shipping_times.table.tmpr0.gz (53/86/fopen): adding to final database dump
+0306.706 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_gla_shipping_times.table.gz (54/86/fopen): adding to final database dump
+0306.751 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_custom_fields.table.tmpr0.gz (55/86/fopen): adding to final database dump
+0306.771 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_custom_fields.table.gz (56/86/fopen): adding to final database dump
+0306.782 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_dynamic_segment_filters.table.tmpr0.gz (57/86/fopen): adding to final database dump
+0306.804 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_dynamic_segment_filters.table.gz (58/86/fopen): adding to final database dump
+0306.815 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_feature_flags.table.tmpr0.gz (59/86/fopen): adding to final database dump
+0306.862 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_feature_flags.table.gz (60/86/fopen): adding to final database dump
+0306.898 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_forms.table.tmpr0.gz (61/86/fopen): adding to final database dump
+0306.935 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_forms.table.gz (62/86/fopen): adding to final database dump
+0306.981 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_log.table.tmpr0.gz (63/86/fopen): adding to final database dump
+0307.026 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_log.table.gz (64/86/fopen): adding to final database dump
+0307.222 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_mapping_to_external_entities.table.tmpr1.gz (65/86/fopen): adding to final database dump
+0307.412 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_mapping_to_external_entities.table.gz (66/86/fopen): adding to final database dump
+0307.448 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_links.table.tmpr0.gz (67/86/fopen): adding to final database dump
+0307.515 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_links.table.gz (68/86/fopen): adding to final database dump
+0307.572 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_option.table.tmpr0.gz (69/86/fopen): adding to final database dump
+0307.617 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_option.table.gz (70/86/fopen): adding to final database dump
+0307.663 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_option_fields.table.tmpr23.gz (71/86/fopen): adding to final database dump
+0307.713 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_option_fields.table.gz (72/86/fopen): adding to final database dump
+0307.750 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_posts.table.tmpr0.gz (73/86/fopen): adding to final database dump
+0307.837 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_posts.table.gz (74/86/fopen): adding to final database dump
+0307.899 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_segment.table.tmpr0.gz (75/86/fopen): adding to final database dump
+0307.936 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_segment.table.gz (76/86/fopen): adding to final database dump
+0307.991 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_templates.table.tmpr77.gz (77/86/fopen): adding to final database dump
+0308.029 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletter_templates.table.gz (78/86/fopen): adding to final database dump
+0308.047 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletters.table.tmpr0.gz (79/86/fopen): adding to final database dump
+0308.060 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_newsletters.table.gz (80/86/fopen): adding to final database dump
+0308.071 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_scheduled_task_subscribers.table.tmpr1.gz (81/86/fopen): adding to final database dump
+0308.141 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_scheduled_task_subscribers.table.gz (82/86/fopen): adding to final database dump
+0308.162 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_scheduled_tasks.table.tmpr40.gz (83/86/fopen): adding to final database dump
+0308.174 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_scheduled_tasks.table.gz (84/86/fopen): adding to final database dump
+0308.195 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_segments.table.tmpr4.gz (85/86/fopen): adding to final database dump
+0308.207 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_segments.table.gz (86/86/fopen): adding to final database dump
+0308.253 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_sending_queues.table.tmpr0.gz (87/86/fopen): adding to final database dump
+0308.265 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_sending_queues.table.gz (88/86/fopen): adding to final database dump
+0308.310 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_settings.table.tmpr23.gz (89/86/fopen): adding to final database dump
+0308.396 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_settings.table.gz (90/86/fopen): adding to final database dump
+0308.434 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_bounces.table.tmpr0.gz (91/86/fopen): adding to final database dump
+0308.487 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_bounces.table.gz (92/86/fopen): adding to final database dump
+0308.543 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_clicks.table.tmpr0.gz (93/86/fopen): adding to final database dump
+0308.661 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_clicks.table.gz (94/86/fopen): adding to final database dump
+0308.761 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_forms.table.tmpr0.gz (95/86/fopen): adding to final database dump
+0308.806 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_forms.table.gz (96/86/fopen): adding to final database dump
+0308.859 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_newsletters.table.tmpr0.gz (97/86/fopen): adding to final database dump
+0308.914 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_newsletters.table.gz (98/86/fopen): adding to final database dump
+0308.959 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_opens.table.tmpr0.gz (99/86/fopen): adding to final database dump
+0309.025 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_opens.table.gz (100/86/fopen): adding to final database dump
+0309.037 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_unsubscribes.table.tmpr0.gz (101/86/fopen): adding to final database dump
+0309.050 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_unsubscribes.table.gz (102/86/fopen): adding to final database dump
+0309.061 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.tmpr0.gz (103/86/fopen): adding to final database dump
+0309.074 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_statistics_woocommerce_purchases.table.gz (104/86/fopen): adding to final database dump
+0309.086 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_stats_notifications.table.tmpr0.gz (105/86/fopen): adding to final database dump
+0309.131 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_stats_notifications.table.gz (106/86/fopen): adding to final database dump
+0309.194 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_custom_field.table.tmpr0.gz (107/86/fopen): adding to final database dump
+0309.240 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_custom_field.table.gz (108/86/fopen): adding to final database dump
+0309.293 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_ips.table.tmpr1.gz (109/86/fopen): adding to final database dump
+0309.382 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_ips.table.gz (110/86/fopen): adding to final database dump
+0309.513 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_segment.table.tmpr2.gz (111/86/fopen): adding to final database dump
+0309.581 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscriber_segment.table.gz (112/86/fopen): adding to final database dump
+0309.823 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscribers.table.tmpr2.gz (113/86/fopen): adding to final database dump
+0309.996 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_subscribers.table.gz (114/86/fopen): adding to final database dump
+0310.062 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_user_agents.table.tmpr0.gz (115/86/fopen): adding to final database dump
+0310.117 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_user_agents.table.gz (116/86/fopen): adding to final database dump
+0310.173 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_user_flags.table.tmpr0.gz (117/86/fopen): adding to final database dump
+0310.231 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_mailpoet_user_flags.table.gz (118/86/fopen): adding to final database dump
+0310.288 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_admin_note_actions.table.tmpr711.gz (119/86/fopen): adding to final database dump
+0310.342 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_admin_note_actions.table.gz (120/86/fopen): adding to final database dump
+0310.409 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_admin_notes.table.tmpr50.gz (121/86/fopen): adding to final database dump
+0310.457 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_admin_notes.table.gz (122/86/fopen): adding to final database dump
+0310.640 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_customer_lookup.table.tmpr0.gz (123/86/fopen): adding to final database dump
+0310.766 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_customer_lookup.table.gz (124/86/fopen): adding to final database dump
+0310.863 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_download_log.table.tmpr0.gz (125/86/fopen): adding to final database dump
+0310.930 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_download_log.table.gz (126/86/fopen): adding to final database dump
+0310.974 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (127/86/fopen): adding to final database dump
+0311.073 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_coupon_lookup.table.gz (128/86/fopen): adding to final database dump
+0311.141 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (129/86/fopen): adding to final database dump
+0311.193 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_product_lookup.table.gz (130/86/fopen): adding to final database dump
+0311.247 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_stats.table.tmpr0.gz (131/86/fopen): adding to final database dump
+0311.301 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_stats.table.gz (132/86/fopen): adding to final database dump
+0311.355 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (133/86/fopen): adding to final database dump
+0311.409 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_order_tax_lookup.table.gz (134/86/fopen): adding to final database dump
+0311.462 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (135/86/fopen): adding to final database dump
+0311.516 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_attributes_lookup.table.gz (136/86/fopen): adding to final database dump
+0311.561 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_download_directories.table.tmpr3.gz (137/86/fopen): adding to final database dump
+0311.638 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_product_download_directories.table.gz (138/86/fopen): adding to final database dump
+0311.719 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_rate_limits.table.tmpr0.gz (139/86/fopen): adding to final database dump
+0311.827 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_rate_limits.table.gz (140/86/fopen): adding to final database dump
+0311.988 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_webhooks.table.tmpr0.gz (141/86/fopen): adding to final database dump
+0312.110 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wc_webhooks.table.gz (142/86/fopen): adding to final database dump
+0312.198 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (143/86/fopen): adding to final database dump
+0312.299 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_api_keys.table.gz (144/86/fopen): adding to final database dump
+0312.376 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (145/86/fopen): adding to final database dump
+0312.430 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_attribute_taxonomies.table.gz (146/86/fopen): adding to final database dump
+0312.592 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (147/86/fopen): adding to final database dump
+0312.784 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (148/86/fopen): adding to final database dump
+0312.839 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_log.table.tmpr0.gz (149/86/fopen): adding to final database dump
+0312.887 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_log.table.gz (150/86/fopen): adding to final database dump
+0312.940 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_order_items.table.tmpr0.gz (151/86/fopen): adding to final database dump
+0312.995 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_order_items.table.gz (152/86/fopen): adding to final database dump
+0313.048 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (153/86/fopen): adding to final database dump
+0313.106 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_payment_tokens.table.gz (154/86/fopen): adding to final database dump
+0313.218 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_sessions.table.tmpr12.gz (155/86/fopen): adding to final database dump
+0313.388 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_sessions.table.gz (156/86/fopen): adding to final database dump
+0313.542 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (157/86/fopen): adding to final database dump
+0313.611 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zone_locations.table.gz (158/86/fopen): adding to final database dump
+0313.655 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (159/86/fopen): adding to final database dump
+0313.669 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zone_methods.table.gz (160/86/fopen): adding to final database dump
+0313.713 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (161/86/fopen): adding to final database dump
+0313.772 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_shipping_zones.table.gz (162/86/fopen): adding to final database dump
+0313.825 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (163/86/fopen): adding to final database dump
+0313.838 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_tax_rate_locations.table.gz (164/86/fopen): adding to final database dump
+0313.858 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (165/86/fopen): adding to final database dump
+0313.904 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_woocommerce_tax_rates.table.gz (166/86/fopen): adding to final database dump
+0313.927 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpforms_tasks_meta.table.tmpr6.gz (167/86/fopen): adding to final database dump
+0313.948 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpforms_tasks_meta.table.gz (168/86/fopen): adding to final database dump
+0313.960 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpmailsmtp_debug_events.table.tmpr0.gz (169/86/fopen): adding to final database dump
+0314.006 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpmailsmtp_debug_events.table.gz (170/86/fopen): adding to final database dump
+0314.019 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr10.gz (171/86/fopen): adding to final database dump
+0314.038 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db-table-wp_wpmailsmtp_tasks_meta.table.gz (172/86/fopen): adding to final database dump
+0314.125 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz: finished writing out complete database file (545.8 KB)
+0314.290 (0) Total database tables backed up: 86 (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz, size: 559004, sha1: b7bf666cbe24604f0295e4aca670553bab709895, sha256: 04813601215d3891a893f27104e52b67e95ff1bb27f8939bf002d6d46cc65741)
+0314.422 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0314.435 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0314.455 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0314.468 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip: others: This file has not yet been successfully uploaded: will queue
+0314.658 (0) backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz: db: This file has not yet been successfully uploaded: will queue
+0314.706 (0) Saving backup history. Total backup size: 78.8 MB
+0314.805 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0314.958 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0315.022 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ddeb52e98804d8240d67eea93675f8af)
+0319.430 (0) Google Drive: quota usage: used=3388.7 MB, total=15360 MB, available=11971.3 MB
+0319.456 (0) Google Drive: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip: Attempting to upload to Google Drive (into folder id: 1NzT5nTiGF163jCVN52Elb2JRZ_uE-Sr3)
+0320.641 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 111.9 / 34)
+0321.354 (0) Googledrive chunked upload: 5.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 111.9 / 34)
+0322.787 (0) Googledrive chunked upload: 12.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 111.9 / 34)
+0324.344 (0) Googledrive chunked upload: 27.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 111.9 / 34)
+0327.821 (0) Googledrive chunked upload: 56.3 % uploaded (32505856)
+0332.382 (0) Googledrive chunked upload: 85.4 % uploaded (49283072)
+0335.519 (0) Googledrive chunked upload: 100 % uploaded (49283072)
+0335.778 (0) Google Drive: OK: Archive backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip uploaded in 16.3 seconds
+0335.911 (0) Recording as successfully uploaded: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip
+0336.010 (0) Deleting local file: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip: OK
+0336.022 (0) Deleting zip manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-plugins.zip.list.tmp)
+0336.537 (0) Google Drive: quota usage: used=3443.8 MB, total=15360 MB, available=11916.2 MB
+0336.550 (0) Google Drive: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip: Attempting to upload to Google Drive (into folder id: 1NzT5nTiGF163jCVN52Elb2JRZ_uE-Sr3)
+0337.688 (0) Googledrive chunked upload: 17.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 111.9 / 34)
+0338.318 (0) Googledrive chunked upload: 51.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 111.9 / 34)
+0339.956 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0340.122 (0) Google Drive: OK: Archive backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip uploaded in 3.56 seconds
+0340.222 (0) Recording as successfully uploaded: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip
+0340.322 (0) Deleting local file: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip: OK
+0340.367 (0) Deleting zip manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-themes.zip.list.tmp)
+0341.059 (0) Google Drive: quota usage: used=3449.5 MB, total=15360 MB, available=11910.5 MB
+0341.086 (0) Google Drive: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip: Attempting to upload to Google Drive (into folder id: 1NzT5nTiGF163jCVN52Elb2JRZ_uE-Sr3)
+0342.240 (0) Googledrive chunked upload: 6.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 111.9 / 34)
+0342.710 (0) Googledrive chunked upload: 18.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 111.9 / 34)
+0343.650 (0) Googledrive chunked upload: 43.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 111.9 / 34)
+0345.647 (0) Googledrive chunked upload: 93 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 111.9 / 34)
+0347.212 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0347.248 (0) Google Drive: OK: Archive backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip uploaded in 6.14 seconds
+0347.260 (0) Recording as successfully uploaded: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip
+0347.287 (0) Deleting local file: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip: OK
+0347.306 (0) Deleting zip manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-uploads.zip.list.tmp)
+0347.770 (0) Google Drive: quota usage: used=3465.7 MB, total=15360 MB, available=11894.3 MB
+0347.828 (0) Google Drive: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip: Attempting to upload to Google Drive (into folder id: 1NzT5nTiGF163jCVN52Elb2JRZ_uE-Sr3)
+0348.924 (0) Googledrive chunked upload: 77.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 111.9 / 34)
+0350.208 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0350.244 (0) Google Drive: OK: Archive backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip uploaded in 2.36 seconds
+0350.257 (0) Recording as successfully uploaded: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip
+0350.281 (0) Deleting local file: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip: OK
+0350.294 (0) Deleting zip manifest (backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-others.zip.list.tmp)
+0350.806 (0) Google Drive: quota usage: used=3467 MB, total=15360 MB, available=11893 MB
+0350.826 (0) Google Drive: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz: Attempting to upload to Google Drive (into folder id: 1NzT5nTiGF163jCVN52Elb2JRZ_uE-Sr3)
+0353.351 (0) Googledrive chunked upload: 100 % uploaded
+0353.471 (0) Google Drive: OK: Archive backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz uploaded in 2.57 seconds
+0353.534 (0) Recording as successfully uploaded: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz
+0353.649 (0) Deleting local file: backup_2022-06-06-0600_ASIAvina_4e95b101d1c1-db.gz: OK
+0353.753 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0353.765 (0) Number of backup sets in history: 1; groups (db): 1
+0353.776 (0) Examining (for databases) backup set with group_id=0, nonce=4e95b101d1c1, datestamp=1654495244 (Jun 06 2022 06:00:44)
+0353.789 (0) This backup set is the backup set just made, so will not be deleted.
+0353.789 (0) Number of backup sets in history: 1; groups (files): 1
+0353.801 (0) Examining (for files) backup set with nonce=4e95b101d1c1, datestamp=1654495244 (Jun 06 2022 06:00:44)
+0353.801 (0) This backup set is the backup set just made, so will not be deleted.
+0353.814 (0) This backup set is the backup set just made, so will not be deleted.
+0353.814 (0) This backup set is the backup set just made, so will not be deleted.
+0353.814 (0) This backup set is the backup set just made, so will not be deleted.
+0353.814 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0353.825 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0353.875 (0) Resume backup (4e95b101d1c1, 0): finish run
+0353.936 (0) Decremented the semaphore (fd) by 1
+0354.017 (0) Semaphore (fd) unlocked
+0354.244 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0354.364 (0) No email will/can be sent - the user has not configured an email address.
+0354.376 (0) The backup apparently succeeded and is now complete
